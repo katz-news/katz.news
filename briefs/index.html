@@ -1,0 +1,12 @@
+---
+layout: default
+title: Briefs
+description: The day's most important developments in science and technology, summarized in our own words.
+---
+<section class="section-front">
+  <p class="label">Daily</p><h1>Briefs</h1>
+  <p class="standfirst">The day's most important developments in science and technology, gathered from trusted sources and summarized in our own words. Every brief links to the original.</p>
+  <nav class="subnav filter" aria-label="Filter by section"><button type="button" data-filter="" aria-pressed="true">All</button>{% for s in site.data.sections %}<button type="button" data-filter="{{ s.slug }}" aria-pressed="false">{{ s.name }}</button>{% endfor %}</nav>
+  <ul class="briefs">{% for b in site.categories.briefs %}{% include brief-item.html post=b %}{% endfor %}</ul>
+</section>
+<script src="/assets/js/filter.js" defer></script>

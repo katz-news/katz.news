@@ -1,0 +1,34 @@
+# The four sections and their subsections. Slugs are used in URLs: never change a slug after publishing.
+- slug: science
+  name: Frontier Science
+  intro: Discoveries that push the edge of what humanity knows — and hint at what we might do next.
+  subsections:
+    - { slug: physics-space, name: Physics and Space, intro: "From quantum foundations to the far side of the universe: the experiments and missions expanding our map of reality." }
+    - { slug: life-health, name: Life and Health, intro: "Breakthroughs in biology and medicine that help people live longer, healthier lives." }
+    - { slug: earth-climate, name: Earth and Climate, intro: "How science helps us understand our planet, and the solutions working to protect it." }
+    - { slug: mathematics, name: Mathematics, intro: "The language beneath every technology, from Euler's bridges to today's open problems." }
+- slug: technology
+  name: Emerging Technologies
+  intro: The tools that will shape the next decade, explained clearly and judged by what they make possible.
+  subsections:
+    - { slug: ai-data, name: AI and Data, intro: "Advances in artificial intelligence and data science, and what they mean for work, learning and discovery." }
+    - { slug: quantum, name: Quantum, intro: "Quantum computing, sensing and communication, from lab milestones to first real-world uses." }
+    - { slug: blockchain, name: Blockchain, intro: "Distributed ledgers and digital assets beyond the hype: what is being built, and who it serves." }
+    - { slug: robotics-hardware, name: Robotics and Hardware, intro: "Machines, chips and devices that turn ideas into things that move, sense and compute." }
+    - { slug: impact, name: Impact, intro: "Technology at work today, improving health, access, safety and opportunity." }
+- slug: education
+  name: Education and Upskilling
+  intro: How people learn the skills of the future, and the competitions, programs and paths that get them there.
+  subsections:
+    - { slug: olympiads, name: Olympiads, intro: "Competitions that challenge young innovators, including KBI's IBCOL, IDSOL and IQCOL." }
+    - { slug: certifications, name: Certifications, intro: "Credentials that prove real competence, and how to earn them." }
+    - { slug: guides, name: Learning Guides, intro: "Practical paths into new fields, step by step, for curious beginners and ambitious learners." }
+    - { slug: alumni, name: Alumni Spotlights, intro: "Where our community goes next: the projects, careers and companies of program alumni." }
+- slug: entrepreneurship
+  name: Entrepreneurship
+  intro: Building something new, from first idea to growing company, in the age of the Digital Mittelstand.
+  subsections:
+    - { slug: startups, name: Startups, intro: "Launches, funding rounds and hard-won lessons from founders building the future." }
+    - { slug: digital-mittelstand, name: Digital Mittelstand, intro: "Digital-native small firms and one-person companies: the backbone of tomorrow's economy." }
+    - { slug: founders, name: Founders, intro: "Profiles of and conversations with the people turning ideas into companies." }
+    - { slug: ecosystems, name: Ecosystems, intro: "The hubs, accelerators and programs that help founders grow, around the world." }

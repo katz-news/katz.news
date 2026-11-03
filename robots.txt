@@ -1,0 +1,19 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# AI crawlers are welcome (KBI policy).
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

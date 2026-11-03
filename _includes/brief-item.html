@@ -1,0 +1,6 @@
+{%- assign b = include.post -%}
+<li class="brief-item" data-section="{{ b.section }}">
+  <p class="label">{{ b.source_name }} · {{ b.date | date: "%-d %b %Y" }}</p>
+  <h3><a href="{{ b.url }}">{{ b.title }}</a></h3>
+  <div class="summary">{{ b.content | strip_html | truncatewords: 60 }}</div>
+</li>

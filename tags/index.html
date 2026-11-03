@@ -1,0 +1,9 @@
+---
+layout: default
+title: Tags
+---
+<section class="section-front"><h1>Tags</h1>
+{% assign tags = site.tags | sort %}
+<nav class="subnav">{% for t in tags %}<a href="#{{ t[0] | slugify }}">{{ t[0] }}</a>{% endfor %}</nav>
+{% for t in tags %}<h2 id="{{ t[0] | slugify }}">{{ t[0] }}</h2><ul>{% for p in t[1] %}<li><a href="{{ p.url }}">{{ p.title }}</a></li>{% endfor %}</ul>{% endfor %}
+</section>

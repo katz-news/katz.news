@@ -1,0 +1,14 @@
+---
+layout: default
+title: Editions
+---
+{% include edition.html %}
+<section class="section-front">
+  <h1>Editions</h1>
+  <p class="standfirst">Every Tuesday since 26 August 2025.</p>
+  <ul class="edition-list">
+  {%- assign eds = site.pages | where: "layout", "edition" | sort: "date" | reverse -%}
+  {%- assign now = site.time | date: "%s" | plus: 0 -%}
+  {% for e in eds %}{%- assign ts = e.date | date: "%s" | plus: 0 -%}{% if ts <= now %}<li><a href="{{ e.url }}">Nr. {{ e.nr }}</a> · {{ e.date | date: "%A, %-d %B %Y" }}</li>{% endif %}{% endfor %}
+  </ul>
+</section>

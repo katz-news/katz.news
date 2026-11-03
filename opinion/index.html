@@ -1,0 +1,7 @@
+---
+layout: default
+title: Opinion
+---
+<section class="section-front"><h1>Opinion</h1><p class="standfirst">Arguments and perspectives from named writers, clearly labelled. Opinions are the writers' own.</p>
+<div class="grid">{% assign ops = site.posts | where: "type", "Opinion" %}{% for p in ops %}{% include card.html post=p %}{% endfor %}</div>
+{% if ops.size == 0 %}<p class="empty">No opinion pieces yet. <a href="/contribute/">Pitch one</a>.</p>{% endif %}</section>

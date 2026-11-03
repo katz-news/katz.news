@@ -1,0 +1,8 @@
+{%- assign p = include.post -%}{%- assign sec = site.data.sections | where: "slug", p.categories[0] | first -%}
+<article class="card{% if include.lead %} lead{% endif %}">
+  {% if p.image and include.lead %}<img src="{{ p.image }}" alt="{{ p.image_alt }}">{% endif %}
+  <p class="label">{% if sec %}{{ sec.name }}{% else %}{{ p.categories[0] | capitalize }}{% endif %}{% if p.type %} · {{ p.type }}{% endif %}</p>
+  <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+  {% if p.standfirst %}<p class="standfirst">{{ p.standfirst }}</p>{% endif %}
+  <p class="meta">{{ p.date | date: "%-d %B %Y" }}{% if p.author %} · {{ p.author }}{% endif %}</p>
+</article>

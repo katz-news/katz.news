@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- assign sec = site.data.sections | where: "slug", page.categories[0] | first -%}
+{%- assign sub = sec.subsections | where: "slug", page.categories[1] | first -%}
+{% include edition.html date=page.date %}
+<article class="prose article">
+  <p class="label"><a href="/{{ sec.slug }}/">{{ sec.name }}</a>{% if sub %} › <a href="/{{ sec.slug }}/{{ sub.slug }}/">{{ sub.name }}</a>{% endif %}{% if page.type %} · {{ page.type }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.standfirst %}<p class="standfirst">{{ page.standfirst }}</p>{% endif %}
+  <p class="meta">{{ page.date | date: "%A, %-d %B %Y" }} · <a href="/editions/{{ ed_label }}/">Edition {{ ed_label }}</a>{% if page.author %} · By {{ page.author }}{% if page.author_role %} ({{ page.author_role }}){% endif %}{% endif %}</p>
+  {% if page.image %}<figure><img src="{{ page.image }}" alt="{{ page.image_alt }}">{% if page.image_credit %}<figcaption>{{ page.image_credit }}</figcaption>{% endif %}</figure>{% endif %}
+  {{ content }}
+  {% if page.sources and page.sources.size > 0 %}
+  <section class="sources"><h2>Sources</h2><ol>{% for s in page.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}</li>{% endfor %}</ol></section>
+  {% endif %}
+  {% if page.corrections %}<section class="corrections"><h2>Corrections</h2>{{ page.corrections | markdownify }}</section>{% endif %}
+  <p class="disclosure">{% if page.ai_disclosure %}{{ page.ai_disclosure }}{% else %}How this story was made: drafted with AI assistance, completed by a human editor, approved by the Editor-in-Chief.{% endif %}</p>
+  {% if page.type == "Opinion" %}<p class="disclosure">Opinions are the writer's own.</p>{% endif %}
+  {% if site.correction_form_url != "" %}<p><a href="{{ site.correction_form_url }}">Suggest a correction</a></p>{% endif %}
+</article>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"NewsArticle","headline":{{ page.title | jsonify }},"description":{{ page.standfirst | jsonify }},"datePublished":"{{ page.date | date_to_xmlschema }}","dateModified":"{{ page.last_modified_at | default: page.date | date_to_xmlschema }}","author":{"@type":"Person","name":{{ page.author | default: "KATZ" | jsonify }}},"publisher":{"@type":"NewsMediaOrganization","name":"KATZ — Königsberger Allgemeine Technologie Zeitung","logo":{"@type":"ImageObject","url":"{{ site.url }}/icon-512.png"}},"mainEntityOfPage":"{{ site.url }}{{ page.url }}"}
+</script>

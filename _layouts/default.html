@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>{% include head.html %}</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+{%- assign md = page.masthead_date -%}{%- if page.collection == "posts" -%}{%- assign md = page.date -%}{%- endif -%}
+{% include masthead.html date=md %}
+<main id="main">{{ content }}</main>
+{% include footer.html %}
+</div>
+</body>
+</html>

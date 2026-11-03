@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{%- assign sec = site.data.sections | where: "slug", page.section | first -%}
+{%- if page.subsection -%}{%- assign sub = sec.subsections | where: "slug", page.subsection | first -%}{%- endif -%}
+<section class="section-front">
+  <p class="label">{% if sub %}<a href="/{{ sec.slug }}/">{{ sec.name }}</a>{% else %}Section{% endif %}</p>
+  <h1>{% if sub %}{{ sub.name }}{% else %}{{ sec.name }}{% endif %}</h1>
+  <p class="standfirst">{% if sub %}{{ sub.intro }}{% else %}{{ sec.intro }}{% endif %}</p>
+  {% unless sub %}<nav class="subnav" aria-label="Subsections">{% for s in sec.subsections %}<a href="/{{ sec.slug }}/{{ s.slug }}/">{{ s.name }}</a>{% endfor %}</nav>{% endunless %}
+  <div class="grid">
+  {%- assign n = 0 -%}
+  {%- for p in site.categories[sec.slug] -%}
+    {%- if sub and p.categories[1] != sub.slug -%}{%- continue -%}{%- endif -%}
+    {% include card.html post=p %}{%- assign n = n | plus: 1 -%}
+  {%- endfor -%}
+  </div>
+  {% if n == 0 %}<p class="empty">No stories here yet. <a href="/contribute/">Pitch one</a>.</p>{% endif %}
+</section>

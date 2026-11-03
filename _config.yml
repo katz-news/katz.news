@@ -1,0 +1,47 @@
+# KATZ — Königsberger Allgemeine Technologie Zeitung
+title: KATZ
+long_title: Königsberger Allgemeine Technologie Zeitung
+english_title: Koenigsberg General Technology Newspaper
+description: >-
+  KATZ tells inspiring, thought-provoking stories about frontier science, emerging
+  technologies, education and entrepreneurship. Published every Tuesday by the
+  Königsberger Bridges Institute.
+url: "https://katz.news"
+baseurl: ""
+lang: en-CA
+timezone: Europe/Tallinn   # assumption: KBI is registered in Estonia; change if needed
+founding_date: "2025-08-26"   # edition Nr. 001 (a Tuesday). Edition numbers are counted from here.
+logo: /assets/brand/katz-monogram.svg
+social:
+  name: KATZ
+  links:
+    - https://www.linkedin.com/company/kbi-eu/
+
+# Forms (Google Forms). Paste the real URLs when the forms exist.
+subscribe_form_url: ""      # embed URL of the subscription Google Form
+pitch_form_url: ""          # pitch form
+correction_form_url: ""     # suggest-a-correction form
+join_url: "https://kb.institute/apply"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+feed:
+  path: feed.xml
+  posts_limit: 40
+
+include: [_pages]
+exclude: [README.md, AGENTS.md, scripts, Gemfile, Gemfile.lock, vendor, .pages.yml, out]
+
+defaults:
+  - scope: { path: "_posts/articles" }
+    values: { layout: article, published: false }
+  - scope: { path: "_posts/briefs" }
+    values: { layout: brief, published: false, categories: [briefs], permalink: "/briefs/:year-:month-:day-:title/" }
+  - scope: { path: "_pages" }
+    values: { layout: page }

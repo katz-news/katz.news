@@ -1,0 +1,16 @@
+---
+layout: null
+---
+# KATZ — Königsberger Allgemeine Technologie Zeitung
+
+> KATZ (Koenigsberg General Technology Newspaper) is the official newspaper of the Virtual City of Königsberg, published every Tuesday by the Königsberger Bridges Institute (KBI). It covers frontier science, emerging technologies, education and upskilling, and entrepreneurship.
+
+## Sections
+{% for s in site.data.sections %}- [{{ s.name }}]({{ site.url }}/{{ s.slug }}/): {{ s.intro }}
+{% endfor %}- [Briefs]({{ site.url }}/briefs/): daily news summarized in our own words, with links to the originals.
+
+## About
+- [About]({{ site.url }}/about/)
+- [Standards]({{ site.url }}/about/standards/)
+- [Editions]({{ site.url }}/editions/)
+- [RSS]({{ site.url }}/feed.xml)
