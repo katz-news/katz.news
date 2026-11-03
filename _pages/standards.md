@@ -12,3 +12,4 @@ standfirst: These are the rules every KATZ story follows, whoever writes it — 
 7. **Corrections.** Mistakes are fixed openly, with a dated note on the article and an entry on the [Corrections](/corrections/) page. We never correct silently.
 8. **Young people.** Many readers and contributors are young. We never publish personal details of anyone under 18 without a guardian's consent, and we name minors only with that consent.
 9. **Archive.** Archive editions are digests of reporting from their week, with sources linked.
+10. **Protecting sources.** We protect the people who give us information as far as the law allows. Tips reach only the Editor-in-Chief and one named deputy, never AI tools or our publishing systems. Anything a source tells us is checked with at least two independent sources before we publish, and the people involved get a chance to respond. [How to send us a tip](/tips/).
