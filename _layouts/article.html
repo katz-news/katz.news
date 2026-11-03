@@ -8,7 +8,7 @@ layout: default
   <p class="label"><a href="/{{ sec.slug }}/">{{ sec.name }}</a>{% if sub %} › <a href="/{{ sec.slug }}/{{ sub.slug }}/">{{ sub.name }}</a>{% endif %}{% if page.type %} · {{ page.type }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}</p>
   <h1>{{ page.title }}</h1>
   {% if page.standfirst %}<p class="standfirst">{{ page.standfirst }}</p>{% endif %}
-  <p class="meta">{{ page.date | date: "%A, %-d %B %Y" }} · <a href="/editions/{{ ed_label }}/">Edition {{ ed_label }}</a>{% if page.author %} · By {{ page.author }}{% if page.author_role %} ({{ page.author_role }}){% endif %}{% endif %}</p>
+  <p class="meta">{{ page.date | date: "%A, %-d %B %Y" }} · <a href="/editions/{{ ed_label }}/">Edition {{ ed_label }}</a>{% if page.author %} · By {{ page.author }}{% if page.author_role %} · {{ page.author_role }}{% endif %}{% endif %}</p>
   {% if page.image %}<figure><img src="{{ page.image }}" alt="{{ page.image_alt }}">{% if page.image_credit %}<figcaption>{{ page.image_credit }}</figcaption>{% endif %}</figure>{% endif %}
   {{ content }}
   {% if page.sources and page.sources.size > 0 %}

@@ -1,4 +1,20 @@
 {% include edition.html date=include.date %}
+<div class="mobile-head">
+  <div class="mobile-bar">
+    <details class="menu">
+      <summary aria-label="Open menu"><span class="burger" aria-hidden="true"></span></summary>
+      <nav class="menu-panel" aria-label="Menu">
+        <a href="/briefs/">Briefs</a>{% for s in site.data.sections %}<a href="/{{ s.slug }}/">{{ s.name }}</a>{% endfor %}
+        <span class="menu-rule" aria-hidden="true"></span>
+        <a href="/editions/">Editions</a><a href="/opinion/">Opinion</a><a href="/about/">About</a><a href="/contribute/">Contribute</a><a href="/tips/">Send a tip</a><a href="/search/">Search</a>
+      </nav>
+    </details>
+    <a class="mobile-logo" href="/"><img src="/assets/brand/katz-wordmark-ink.svg" alt="KATZ — Königsberger Allgemeine Technologie Zeitung" width="132" height="30"></a>
+    <a class="mobile-sub" href="/subscribe/">Subscribe</a>
+  </div>
+  <p class="mobile-date">{{ ed_ts | date: "%A, %-d %B %Y" }} · Nr. {{ ed_label }}</p>
+  <nav class="section-strip" aria-label="Sections"><a href="/briefs/">Briefs</a>{% for s in site.data.sections %}<a href="/{{ s.slug }}/">{{ s.name }}</a>{% endfor %}</nav>
+</div>
 <header class="masthead">
   <div class="rail top"><span>NR. {{ ed_label }} · JAHRGANG {{ ed_jg }}</span><span class="coords">54°42′23.0″N · 20°30′42.0″E · VIRTUELLE STADT KÖNIGSBERG</span><span>KATZ.NEWS</span></div>
   <div class="ticks" aria-hidden="true"></div>

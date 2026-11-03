@@ -81,3 +81,69 @@ input[type=search] { width: 100%; font: inherit; padding: 12px; border: 1px soli
 .cta .button { background: var(--paper); color: var(--ink); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 20px 0 10px; font-size: 14px; }
 .small { font-size: 13px; color: var(--slate); }
+
+/* ---------- Responsive (mobile-first header inspired by broadsheet apps) ---------- */
+img, iframe { max-width: 100%; }
+.prose a { overflow-wrap: anywhere; }
+.prose table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: .95rem; }
+.prose th, .prose td { border-bottom: 1px solid var(--line); padding: 8px 12px 8px 0; text-align: left; vertical-align: top; }
+.mobile-head { display: none; }
+
+@media (max-width: 1100px) {
+  .mast-grid { grid-template-columns: 160px minmax(0, 1fr) 160px; gap: 16px; }
+  .ear { font-size: 12px; }
+}
+@media (max-width: 1000px) { .coords { display: none; } }
+
+@media (max-width: 820px) {
+  .masthead { display: none; }
+  .mobile-head { display: block; }
+  .mobile-bar {
+    position: sticky; top: 0; z-index: 30; background: var(--paper);
+    display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 8px;
+    min-height: 56px; border-bottom: 1px solid var(--ink);
+  }
+  .menu summary { list-style: none; width: 44px; height: 44px; display: grid; place-items: center; cursor: pointer; }
+  .menu summary::-webkit-details-marker { display: none; }
+  .burger, .burger::before, .burger::after { display: block; width: 22px; height: 2px; background: var(--ink); position: relative; content: ""; }
+  .burger::before { position: absolute; top: -7px; } .burger::after { position: absolute; top: 7px; }
+  .menu[open] .burger { background: transparent; }
+  .menu[open] .burger::before { top: 0; transform: rotate(45deg); } .menu[open] .burger::after { top: 0; transform: rotate(-45deg); }
+  .menu-panel {
+    position: absolute; left: 0; right: 0; top: 100%; background: var(--paper);
+    border-bottom: 3px solid var(--ink); box-shadow: 0 12px 24px rgba(17, 20, 24, .12);
+    display: flex; flex-direction: column; padding: 8px 0 16px; max-height: calc(100vh - 56px); overflow-y: auto;
+  }
+  .menu-panel a { color: var(--ink); text-decoration: none; font: 600 17px var(--ui); padding: 12px 4px; border-bottom: 1px solid var(--line); }
+  .menu-rule { height: 12px; }
+  .mobile-logo { justify-self: center; line-height: 0; }
+  .mobile-logo img { height: 26px; width: auto; }
+  .mobile-sub { font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; background: var(--prussian); color: var(--paper); text-decoration: none; padding: 10px 12px; }
+  .mobile-date { margin: 0; padding: 10px 0 8px; text-align: center; font: 400 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--graphite); }
+  .section-strip {
+    display: flex; gap: 20px; overflow-x: auto; white-space: nowrap; scrollbar-width: none;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--ink); padding: 0 2px; margin-bottom: 4px;
+  }
+  .section-strip::-webkit-scrollbar { display: none; }
+  .section-strip a { font: 600 14px var(--ui); color: var(--ink); text-decoration: none; padding: 12px 0; }
+
+  main { padding: 16px 0 32px; }
+  body { font-size: 16px; }
+  .front-top { gap: 20px; padding-bottom: 20px; }
+  .card.lead h3 { font-size: 1.75rem; }
+  .card.lead img { margin: 0 calc(-1 * clamp(16px, 4vw, 48px)); width: calc(100% + 2 * clamp(16px, 4vw, 48px)); max-width: none; border: 0; }
+  .grid { gap: 0; }
+  .grid .card { border-top: 1px solid var(--line); padding: 16px 0; }
+  .card h3 { font-size: 1.2rem; }
+  .row { padding: 20px 0; }
+  .article h1, .section-front h1 { font-size: 1.9rem; }
+  .article p, .article li { font-size: 1.05rem; }
+  .standfirst { font-size: 1.08em; }
+  .subnav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .subnav a, .subnav button { white-space: nowrap; }
+  .cta { padding: 20px; } .cta h2 { font-size: 1.3rem; }
+  .footer-links { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  .footer-links a { padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .edition-list { columns: 1; }
+  .pager { flex-wrap: wrap; }
+}

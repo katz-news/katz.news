@@ -23,4 +23,4 @@ In the 18th century, Königsberg's seven bridges posed a puzzle that changed mat
 
 ## How we work
 
-Two editors lead KATZ: the Editor-in-Chief and the webmaster. AI agents help us gather news, draft summaries and seed stories. A human completes every piece, and the Editor-in-Chief approves it before it goes live. Read our [standards](/about/standards/).
+Two editors lead KATZ: the Editor-in-Chief and the webmaster. Our Virtual Contributors help us gather news, draft summaries and seed stories. A human completes every piece, and the Editor-in-Chief approves it before it goes live. Read our [standards](/about/standards/).

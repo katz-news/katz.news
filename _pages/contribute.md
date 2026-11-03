@@ -14,7 +14,7 @@ standfirst: Anyone can write for KATZ. If you have a story about frontier scienc
 ## How it works
 
 1. **Pitch first.** {% if site.pitch_form_url != "" %}Use the [pitch form]({{ site.pitch_form_url }}){% else %}Use the pitch form (coming soon){% endif %}: your topic, your angle in one sentence, and your main sources. Please don't send a full draft yet.
-2. **Hear back within 48 hours.** Our AI deputy editor screens every pitch against our standards, and a human decides.
+2. **Hear back within 48 hours.** A Virtual Contributor screens every pitch against our standards, and a human decides.
 3. **Write.** If we accept, you write the piece. Our editors help you shape it and check the sources.
 4. **Approval.** The Editor-in-Chief approves every piece before it goes live.
 5. **Publish.** Your byline appears as Citizen or Guest.
