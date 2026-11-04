@@ -19,7 +19,7 @@ social:
 
 # Forms: native HTML forms. Submissions go to KBI's own form handler (Google Apps Script in KBI's
 # Workspace, see scripts/form-handler.gs), which emails each form to its own mailbox.
-form_endpoint: ""            # paste the Apps Script web app URL here (ends in /exec)
+form_endpoint: "https://script.google.com/macros/s/AKfycbzWndH9cw1lUs00jYXfoYb1K-zMrt5VOZhjQPyb_Et45sVf7Uy3nU5qnr1QBsjqyFuD/exec"
 join_url: "https://kb.institute/apply"
 
 markdown: kramdown
