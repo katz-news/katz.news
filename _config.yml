@@ -18,9 +18,8 @@ social:
     - https://www.linkedin.com/company/kbi-eu/
 
 # Forms: native HTML forms. Submissions go to KBI's own form handler (Google Apps Script in KBI's
-# Workspace, see scripts/form-handler.gs), which emails them to form_inbox.
+# Workspace, see scripts/form-handler.gs), which emails each form to its own mailbox.
 form_endpoint: ""            # paste the Apps Script web app URL here (ends in /exec)
-form_inbox: "submit.via.form@katz.news"
 join_url: "https://kb.institute/apply"
 
 markdown: kramdown

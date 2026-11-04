@@ -1,0 +1,33 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Thank you. We read every letter, and we will email you if we plan to publish yours." novalidate>
+<input type="hidden" name="form_type" value="letters">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<fieldset><legend>About you</legend>
+<label>Your name, as it should appear <span class="req">Required</span><input type="text" name="name" required autocomplete="name" maxlength="120"></label>
+<label>City and country <span class="req">Required</span><input type="text" name="place" required maxlength="120" placeholder="e.g. Tallinn, Estonia"></label>
+<label>Email (never published) <span class="req">Required</span><input type="email" name="email" required autocomplete="email" maxlength="200"></label>
+</fieldset>
+<fieldset><legend>Your letter</legend>
+<label>Link to the story you're responding to <span class="req">Required</span><input type="url" name="article_url" required maxlength="300"></label>
+<label>Headline for your letter <span class="opt">Optional</span><input type="text" name="subject" maxlength="120"></label>
+<label>Your letter (up to 250 words) <span class="req">Required</span><textarea name="letter" rows="8" required maxlength="1900"></textarea></label>
+</fieldset>
+<fieldset><legend>Are you under 16?</legend>
+<label class="check"><input type="radio" name="under_16" value="no" checked> No</label>
+<label class="check"><input type="radio" name="under_16" value="yes"> Yes</label>
+<div class="guardian">
+<label>Parent or guardian's name <input type="text" name="guardian_name" maxlength="120"></label>
+<label>Parent or guardian's email <input type="email" name="guardian_email" maxlength="200"></label>
+</div>
+</fieldset>
+<label class="check"><input type="checkbox" name="own_words" value="yes" required> This is my own writing, and it hasn't been published elsewhere. <span class="req">Required</span></label>
+<label class="check"><input type="checkbox" name="consent_publish" value="yes" required> KATZ may publish my letter, edited for length and clarity, with my name and city. <span class="req">Required</span></label>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Send letter</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:letters@katz.news">letters@katz.news</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>

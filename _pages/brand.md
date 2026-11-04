@@ -49,7 +49,7 @@ All four are free under the SIL Open Font License and are included in the kit.
 
 ## Email signatures (Gmail)
 
-Two signatures: one for **personnel**, one for **shared addresses** such as editor@ or submit.via.form@. They use email-safe fonts, so they look the same in every inbox.
+Two signatures: one for **personnel**, one for **shared addresses** such as editor@ or letters@. They use email-safe fonts, so they look the same in every inbox.
 
 <p class="label">Personnel — edit the name, role and address</p>
 <div class="sig-box">

@@ -1,0 +1,19 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Thank you. We will reply within a few working days." novalidate>
+<input type="hidden" name="form_type" value="enquiries">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<label>Name <span class="req">Required</span><input type="text" name="name" required autocomplete="name" maxlength="120"></label>
+<label>Email <span class="req">Required</span><input type="email" name="email" required autocomplete="email" maxlength="200"></label>
+<label>Organization <span class="opt">Optional</span><input type="text" name="organization" autocomplete="organization" maxlength="160"></label>
+<label>Topic <select name="topic"><option>General question</option><option>Press</option><option>Partnership</option><option>Feedback on the website</option><option>Other</option></select></label>
+<label>Subject <span class="req">Required</span><input type="text" name="subject" required maxlength="160"></label>
+<label>Message <span class="req">Required</span><textarea name="message" rows="7" required maxlength="4000"></textarea></label>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Send message</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:enquiries@katz.news">enquiries@katz.news</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>

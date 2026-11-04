@@ -27,6 +27,6 @@ standfirst: Anyone can write for KATZ. If you have a story about frontier scienc
 - Contributions are unpaid for now.
 - If you are under 16, a parent or guardian must agree before we publish your work.
 
-**Want to respond to a story?** Send a [letter to the editor](/opinion/#letters) at [letters@katz.news](mailto:letters@katz.news).
+**Want to respond to a story?** Send a [letter to the editor](/letters/).
 
 **Spotted a mistake?** [Suggest a correction](/correction/). We review every suggestion, and accepted fixes are credited.
