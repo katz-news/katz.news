@@ -4,4 +4,8 @@ title: Opinion
 ---
 <section class="section-front"><h1>Opinion</h1><p class="standfirst">Arguments and perspectives from named writers, clearly labelled. Opinions are the writers' own.</p>
 <div class="grid">{% assign ops = site.posts | where: "type", "Opinion" %}{% for p in ops %}{% include card.html post=p %}{% endfor %}</div>
-{% if ops.size == 0 %}<p class="empty">No opinion pieces yet. <a href="/contribute/">Pitch one</a>.</p>{% endif %}</section>
+{% if ops.size == 0 %}<p class="empty">No opinion pieces yet. <a href="/contribute/">Pitch one</a>.</p>{% endif %}
+<section id="letters" class="letters prose"><h2>Letters to the Editor</h2>
+<p>Agree, disagree, or want to add something? Write to <a href="mailto:letters@katz.news">letters@katz.news</a>.</p>
+<ul><li>Keep it under 250 words, and respond to something we published in the last four weeks.</li><li>Include your name and your city or country. We publish letters under the name you give us.</li><li>We may edit for length and clarity, and we cannot publish every letter.</li><li>If you are under 16, please ask a parent or guardian before you write.</li></ul></section>
+</section>
