@@ -200,6 +200,7 @@ img, iframe { max-width: 100%; }
 .brand-swatches li > * { padding: 0 12px; }
 .brand-swatches span { display: block; height: 72px; padding: 0; border-bottom: 1px solid var(--ink); margin-bottom: 8px; }
 .brand-swatches code { font: 500 14px var(--mono); color: var(--prussian); }
+.brand-swatches small { font-size: 14px; color: var(--graphite); }
 .sig-box { background: #fff; border: 1px solid var(--line); padding: 20px; margin: 8px 0 24px; overflow-x: auto; }
 .sig-box table { margin: 0; }
 .prose .sig-box p, .prose .sig-box td { font-family: Arial, Helvetica, sans-serif; }

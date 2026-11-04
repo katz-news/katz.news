@@ -35,7 +35,7 @@ feed:
   posts_limit: 40
 
 include: [_pages]
-exclude: [README.md, AGENTS.md, scripts, Gemfile, Gemfile.lock, vendor, .pages.yml, out]
+exclude: [README.md, AGENTS.md, scripts, docs, Gemfile, Gemfile.lock, vendor, .pages.yml, out]
 
 defaults:
   - scope: { path: "_posts/articles" }
