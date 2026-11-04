@@ -1,0 +1,28 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Thank you. We will reply within a few working days." novalidate>
+<input type="hidden" name="form_type" value="licensing">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<fieldset><legend>About you</legend>
+<label>Name <span class="req">Required</span><input type="text" name="name" required autocomplete="name" maxlength="120"></label>
+<label>Organization <span class="req">Required</span><input type="text" name="organization" required autocomplete="organization" maxlength="160"></label>
+<label>Email <span class="req">Required</span><input type="email" name="email" required autocomplete="email" maxlength="200"></label>
+<label>Phone <span class="opt">Optional</span><input type="tel" name="phone" autocomplete="tel" maxlength="40"></label>
+</fieldset>
+<fieldset><legend>Your request</legend>
+<label>Link(s) to the KATZ article(s) <span class="req">Required</span><textarea name="article_links" rows="3" required maxlength="2000"></textarea></label>
+<label>How will you use it? <select name="use"><option>Republish online</option><option>Print</option><option>Translation</option><option>Teaching or education</option><option>Commercial use</option><option>Other</option></select></label>
+<label>Where will it appear? <span class="req">Required</span><input type="text" name="where" required maxlength="300" placeholder="Publication name or link"></label>
+<label>Language <span class="opt">Optional</span><input type="text" name="language" maxlength="80"></label>
+<label>Expected audience or reach <span class="opt">Optional</span><input type="text" name="reach" maxlength="200"></label>
+<label>Anything else we should know <span class="opt">Optional</span><textarea name="notes" rows="3" maxlength="1500"></textarea></label>
+</fieldset>
+<label class="check"><input type="checkbox" name="accept_credit" value="yes" required> I will credit KATZ and link to the original article. <span class="req">Required</span></label>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Request a licence</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:{{ site.form_inbox }}">{{ site.form_inbox }}</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>

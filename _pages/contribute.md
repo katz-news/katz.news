@@ -13,7 +13,7 @@ standfirst: Anyone can write for KATZ. If you have a story about frontier scienc
 
 ## How it works
 
-1. **Pitch first.** {% if site.pitch_form_url != "" %}Use the [pitch form]({{ site.pitch_form_url }}){% else %}Use the pitch form (coming soon){% endif %}: your topic, your angle in one sentence, and your main sources. Please don't send a full draft yet.
+1. **Pitch first.** Use the [pitch form](/pitch/): your topic, your angle in one sentence, and your main sources. Please don't send a full draft yet.
 2. **Hear back within 48 hours.** A Virtual Contributor screens every pitch against our standards, and a human decides.
 3. **Write.** If we accept, you write the piece. Our editors help you shape it and check the sources.
 4. **Approval.** The Editor-in-Chief approves every piece before it goes live.
@@ -27,4 +27,4 @@ standfirst: Anyone can write for KATZ. If you have a story about frontier scienc
 - Contributions are unpaid for now.
 - If you are under 16, a parent or guardian must agree before we publish your work.
 
-**Spotted a mistake?** {% if site.correction_form_url != "" %}[Suggest a correction]({{ site.correction_form_url }}).{% else %}Use the “Suggest a correction” link on any article.{% endif %} We review every suggestion, and accepted fixes are credited.
+**Spotted a mistake?** [Suggest a correction](/correction/). We review every suggestion, and accepted fixes are credited.

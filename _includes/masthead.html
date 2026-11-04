@@ -13,7 +13,7 @@
     <a class="mobile-sub" href="/subscribe/">Subscribe</a>
   </div>
   <p class="mobile-date">{{ ed_ts | date: "%A, %-d %B %Y" }} · Nr. {{ ed_label }}</p>
-  <nav class="section-strip" aria-label="Sections"><a href="/briefs/">Briefs</a>{% for s in site.data.sections %}<a href="/{{ s.slug }}/">{{ s.name }}</a>{% endfor %}</nav>
+  {% include section-menu.html %}
 </div>
 <header class="masthead">
   <div class="rail top"><span>NR. {{ ed_label }} · JAHRGANG {{ ed_jg }}</span><span class="coords">54°42′23.0″N · 20°30′42.0″E · VIRTUELLE STADT KÖNIGSBERG</span><span>KATZ.NEWS</span></div>
@@ -24,7 +24,6 @@
     <div class="ear right"><span class="ear-label">KOSTENLOS</span><span>Erscheint jeden Dienstag<br>Free · Published every Tuesday</span></div>
   </div>
   <div class="double-rule" aria-hidden="true"></div>
-  <div class="rail bottom"><span>{{ ed_ts | date: "%A, %-d %B %Y" | upcase }}</span><nav aria-label="Sections" class="sections">
-    <a href="/briefs/">Briefs</a>{% for s in site.data.sections %}<a href="/{{ s.slug }}/">{{ s.name }}</a>{% endfor %}
-  </nav><span>AUSGABE {{ ed_label }}</span></div>
+  <div class="rail bottom"><span>{{ ed_ts | date: "%A, %-d %B %Y" | upcase }}</span><span></span><span>AUSGABE {{ ed_label }}</span></div>
+  {% include section-menu.html %}
 </header>

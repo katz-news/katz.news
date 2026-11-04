@@ -17,7 +17,7 @@ layout: default
   {% if page.corrections %}<section class="corrections"><h2>Corrections</h2>{{ page.corrections | markdownify }}</section>{% endif %}
   <p class="disclosure">{% if page.ai_disclosure %}{{ page.ai_disclosure }}{% else %}How this story was made: drafted with AI assistance, completed by a human editor, approved by the Editor-in-Chief.{% endif %}</p>
   {% if page.type == "Opinion" %}<p class="disclosure">Opinions are the writer's own.</p>{% endif %}
-  {% if site.correction_form_url != "" %}<p><a href="{{ site.correction_form_url }}">Suggest a correction</a></p>{% endif %}
+  <p><a href="/correction/?url={{ page.url | url_encode }}">Suggest a correction</a></p>
 </article>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"NewsArticle","headline":{{ page.title | jsonify }},"description":{{ page.standfirst | jsonify }},"datePublished":"{{ page.date | date_to_xmlschema }}","dateModified":"{{ page.last_modified_at | default: page.date | date_to_xmlschema }}","author":{"@type":"Person","name":{{ page.author | default: "KATZ" | jsonify }}},"publisher":{"@type":"NewsMediaOrganization","name":"KATZ — Königsberger Allgemeine Technologie Zeitung","logo":{"@type":"ImageObject","url":"{{ site.url }}/icon-512.png"}},"mainEntityOfPage":"{{ site.url }}{{ page.url }}"}

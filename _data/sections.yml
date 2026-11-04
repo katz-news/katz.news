@@ -1,5 +1,6 @@
 # The four sections and their subsections. Slugs are used in URLs: never change a slug after publishing.
 - slug: science
+  menu: { l: "Frontier Science", m: "Frontier Science", s: "Science", xs: "Science" }
   name: Frontier Science
   intro: Discoveries that push the edge of what humanity knows — and hint at what we might do next.
   subsections:
@@ -8,6 +9,7 @@
     - { slug: earth-climate, name: Earth and Climate, intro: "How science helps us understand our planet, and the solutions working to protect it." }
     - { slug: mathematics, name: Mathematics, intro: "The language beneath every technology, from Euler's bridges to today's open problems." }
 - slug: technology
+  menu: { l: "Emerging Technologies", m: "Emerging Technologies", s: "Tech", xs: "Tech" }
   name: Emerging Technologies
   intro: The tools that will shape the next decade, explained clearly and judged by what they make possible.
   subsections:
@@ -17,6 +19,7 @@
     - { slug: robotics-hardware, name: Robotics and Hardware, intro: "Machines, chips and devices that turn ideas into things that move, sense and compute." }
     - { slug: impact, name: Impact, intro: "Technology at work today, improving health, access, safety and opportunity." }
 - slug: education
+  menu: { l: "Education & Upskilling", m: "Education", s: "Education", xs: "Edu" }
   name: Education and Upskilling
   intro: How people learn the skills of the future, and the competitions, programs and paths that get them there.
   subsections:
@@ -25,6 +28,7 @@
     - { slug: guides, name: Learning Guides, intro: "Practical paths into new fields, step by step, for curious beginners and ambitious learners." }
     - { slug: alumni, name: Alumni Spotlights, intro: "Where our community goes next: the projects, careers and companies of program alumni." }
 - slug: entrepreneurship
+  menu: { l: "Startups & Entrepreneurship", m: "Entrepreneurship", s: "Startups", xs: "Startups" }
   name: Entrepreneurship
   intro: Building something new, from first idea to growing company, in the age of the Digital Mittelstand.
   subsections:

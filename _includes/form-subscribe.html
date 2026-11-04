@@ -1,0 +1,17 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Almost done: please check your inbox and confirm your email address." novalidate>
+<input type="hidden" name="form_type" value="subscribe">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<label>Email address <span class="req">Required</span><input type="email" name="email" required autocomplete="email" maxlength="200"></label>
+<label>First name <span class="opt">Optional</span><input type="text" name="first_name" autocomplete="given-name" maxlength="80"></label>
+<label class="check"><input type="checkbox" name="consent_newsletter" value="yes" required> Send me the KATZ weekly edition by email. I can unsubscribe at any time. <span class="req">Required</span></label>
+<label class="check"><input type="checkbox" name="age_ok" value="yes" required> I am 13 or older, or my parent or guardian agrees. <span class="req">Required</span></label>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Subscribe</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:{{ site.form_inbox }}">{{ site.form_inbox }}</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>

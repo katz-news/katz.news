@@ -1,0 +1,30 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Thank you. The editors will reply within a few working days." novalidate>
+<input type="hidden" name="form_type" value="booking">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<fieldset><legend>About you</legend>
+<label>Name <span class="req">Required</span><input type="text" name="name" required autocomplete="name" maxlength="120"></label>
+<label>Organization <span class="req">Required</span><input type="text" name="organization" required autocomplete="organization" maxlength="160"></label>
+<label>Email <span class="req">Required</span><input type="email" name="email" required autocomplete="email" maxlength="200"></label>
+<label>Phone <span class="opt">Optional</span><input type="tel" name="phone" autocomplete="tel" maxlength="40"></label>
+</fieldset>
+<fieldset><legend>Your event</legend>
+<label>Event or occasion <span class="req">Required</span><input type="text" name="event_name" required maxlength="200"></label>
+<label>Type <select name="event_type"><option>Conference</option><option>Competition or olympiad</option><option>Product or company launch</option><option>Interview</option><option>Other</option></select></label>
+<label>Date <span class="req">Required</span><input type="date" name="event_date" required></label>
+<label>End date <span class="opt">Optional</span><input type="date" name="event_end"></label>
+<label>Location <span class="req">Required</span><input type="text" name="location" required maxlength="200" placeholder="City, country — or online"></label>
+<label>What should we cover, and why does it matter? <span class="req">Required</span><textarea name="pitch" rows="4" required maxlength="2000"></textarea></label>
+<label>Expected audience <span class="opt">Optional</span><input type="text" name="audience" maxlength="200"></label>
+<label>Can you cover travel and accommodation? <select name="travel"><option>Yes</option><option>No</option><option>Let's discuss</option><option>Not needed (online or local)</option></select></label>
+<label>Media contact on the day <span class="opt">Optional</span><input type="text" name="media_contact" maxlength="200"></label>
+</fieldset>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Send request</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:{{ site.form_inbox }}">{{ site.form_inbox }}</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>

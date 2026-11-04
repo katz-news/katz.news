@@ -9,7 +9,7 @@ Message KATZ on Signal at **[SIGNAL USERNAME]**. Signal encrypts messages end to
 
 ## By email
 
-Write to **[TIPS EMAIL]** (Proton Mail). For full encryption, send from your own Proton Mail account or use PGP. Ordinary email is not fully private.
+Write to **[tips@katz.news](mailto:tips@katz.news)**. Email is not end-to-end encrypted unless you use PGP, so for anything sensitive, please use Signal.
 
 ## Protect yourself first
 
@@ -21,6 +21,7 @@ Write to **[TIPS EMAIL]** (Proton Mail). For full encryption, send from your own
 ## What we promise
 
 - Only the Editor-in-Chief and one named deputy read tips.
+- Access to our tips mailbox is limited to those two people and is logged.
 - We never put tips or your identity into AI tools or our publishing systems.
 - We record your identity only where we must, and we protect our sources as far as the law allows.
 - We check every claim with at least two independent sources before we publish, and we give the people involved a chance to respond.

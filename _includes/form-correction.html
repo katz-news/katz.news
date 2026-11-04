@@ -1,0 +1,23 @@
+{% if site.form_endpoint != "" %}
+<form class="katz-form" method="post" action="{{ site.form_endpoint }}" data-success="Thank you. We review every suggestion." novalidate>
+<input type="hidden" name="form_type" value="correction">
+<input type="hidden" name="elapsed" value="nojs">
+<div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<label>Link to the article <span class="req">Required</span><input type="url" name="article_url" required maxlength="300"></label>
+<label>The sentence that's wrong, quoted <span class="req">Required</span><textarea name="wrong" rows="2" required maxlength="1000"></textarea></label>
+<label>What it should say <span class="req">Required</span><textarea name="should" rows="2" required maxlength="1000"></textarea></label>
+<label>A source that shows this <span class="opt">Strongly encouraged</span><input type="text" name="source" maxlength="500"></label>
+<label>Name <span class="opt">Optional, for credit</span><input type="text" name="name" autocomplete="name" maxlength="120"></label>
+<label>Email <span class="opt">Optional, so we can follow up</span><input type="email" name="email" autocomplete="email" maxlength="200"></label>
+<fieldset><legend>Credit me publicly if accepted</legend>
+<label class="check"><input type="radio" name="credit" value="yes"> Yes</label>
+<label class="check"><input type="radio" name="credit" value="no" checked> No</label>
+</fieldset>
+<label class="check"><input type="checkbox" name="consent_privacy" value="yes" required> I accept the <a href="/privacy/">privacy notice</a>. <span class="req">Required</span></label>
+<button type="submit" class="button">Send correction</button>
+<p class="form-status" role="status" aria-live="polite"></p>
+</form>
+{% else %}
+<p class="form-closed">This form opens soon. Until then, email <a href="mailto:{{ site.form_inbox }}">{{ site.form_inbox }}</a>.</p>
+{% endif %}
+<script src="/assets/js/forms.js" defer></script>
