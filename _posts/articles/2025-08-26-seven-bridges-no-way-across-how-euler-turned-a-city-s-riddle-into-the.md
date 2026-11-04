@@ -2,7 +2,7 @@
 published: true
 title: "Seven bridges, no way across: how Euler turned a city's riddle into the
   science of networks"
-date: 2026-11-04
+date: 2025-08-26
 standfirst: Exactly 290 years ago today, Leonhard Euler showed that no one could
   cross all seven bridges of Königsberg exactly once. His proof gave birth to
   graph theory — the mathematics behind maps, the internet and even the reading
