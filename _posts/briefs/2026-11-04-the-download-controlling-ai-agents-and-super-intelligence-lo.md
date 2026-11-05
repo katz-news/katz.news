@@ -14,4 +14,4 @@ Second, a month after President Trump signed an executive order rebranding AI as
 
 Plus: today's midterms test AI's sway over voters, hackers turned supermarket fridges into a food-security risk, and Nvidia told data-centre clients to limit business with China.
 
-Conclusion: the newsletter is not about AI. It is about who gets to tell it what to do.
+Conclusion: the newsletter is not about AI, but rather about who gets to tell it what to do.
