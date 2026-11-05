@@ -12,4 +12,4 @@ MetOp-SG-B1 — ESA calls it the 'sleeping beauty' — spent more than 12 years 
 
 Once in orbit it joins its sibling MetOp-SG-A1, launched in August 2025, measuring temperature, precipitation, clouds and winds — the first of three satellite pairs meant to keep Europe's weather data flowing for more than 20 years.
 
-Conclusion: a weather satellite is not a machine. It is an alarm clock the size of a van.
+Conclusion: a weather satellite is not a machine, but rather an alarm clock the size of a van.
