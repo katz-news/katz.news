@@ -12,4 +12,4 @@ Onkalo, carved into gneiss bedrock on the island of Olkiluoto, is the first engi
 
 The caution is earned: Germany's Asse II salt mine leaked after a few decades and now faces retrieval of some 47,000 cubic metres of waste. And warning people 100,000 years from now is its own puzzle — one abandoned idea was a landscape of giant thorns.
 
-Conclusion: Onkalo is not a landfill. It is a time capsule nobody is meant to open.
+Conclusion: Onkalo is not a landfill, but rather a time capsule nobody is meant to open.
