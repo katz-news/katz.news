@@ -16,14 +16,14 @@
   {% include section-menu.html %}
 </div>
 <header class="masthead">
-  <div class="rail top"><span>NR. {{ ed_label }} · JAHRGANG {{ ed_jg }}</span><span class="coords">54°42′23.0″N · 20°30′42.0″E · VIRTUELLE STADT KÖNIGSBERG</span><span>KATZ.NEWS</span></div>
+  <div class="rail top"><span class="coords">54°42′23.0″N · 20°30′42.0″E</span><span class="top-name">Koenigsberg General Technology Newspaper</span><span>KATZ.NEWS</span></div>
   <div class="ticks" aria-hidden="true"></div>
   <div class="mast-grid">
     <div class="ear"><span class="ear-label">GEGRÜNDET 2025</span><span>Official newspaper of the Virtual City of Königsberg</span></div>
-    <a class="lockup" href="/"><img src="/assets/brand/katz-lockup-compact-ink.svg" alt="KATZ — Königsberger Allgemeine Technologie Zeitung" width="720" height="185"><span class="english">Koenigsberg General Technology Newspaper</span></a>
+    <a class="lockup" href="/"><img src="/assets/brand/katz-lockup-compact-ink.svg" alt="KATZ — Königsberger Allgemeine Technologie Zeitung" width="720" height="185"></a>
     <div class="ear right"><span class="ear-label">KOSTENLOS</span><span>Erscheint jeden Dienstag<br>Free · Published every Tuesday</span></div>
   </div>
   <div class="double-rule" aria-hidden="true"></div>
-  <div class="rail bottom"><span>{{ ed_ts | date: "%A, %-d %B %Y" | upcase }}</span><span></span><span>AUSGABE {{ ed_label }}</span></div>
+  <div class="rail bottom"><span>{{ ed_ts | date: "%A, %-d %B %Y" | upcase }}</span><span></span><span>AUSGABE {{ ed_label }} · JAHRGANG {{ ed_jg }}</span></div>
   {% include section-menu.html %}
 </header>

@@ -4,8 +4,8 @@ permalink: /brand/
 standfirst: Logos, colours, fonts and rules for presenting KATZ — for partners, press and our own team.
 ---
 <div class="brand-downloads">
-<a class="button" href="/assets/brand/downloads/KATZ_Brand_Kit.zip" download>Download brand kit (ZIP, 2.2 MB)</a>
-<a class="button alt" href="/assets/brand/downloads/KATZ_Mastheads_001-067_SVG.zip" download>Mastheads Nr. 001–067 (SVG ZIP, 3.5 MB)</a>
+<a class="button" href="/assets/brand/downloads/KATZ-logos.zip" download>Download logos (ZIP)</a>
+<a class="button alt" href="/assets/brand/downloads/KATZ-fonts.zip" download>Download fonts (ZIP)</a>
 </div>
 
 ## Logo
@@ -45,7 +45,7 @@ The logo stacks three lines: **KATZ** in Orbitron Black, the German name in Frak
 | Barlow (Regular, SemiBold) | Interface and short texts |
 | IBM Plex Mono (Regular, Medium) | Rails, dates, labels and data |
 
-All four are free under the SIL Open Font License and are included in the kit.
+All four are free under the SIL Open Font License. The fonts download includes their licences.
 
 ## Contact
 
