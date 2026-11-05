@@ -6,7 +6,7 @@ section: science
 source_name: NASA
 source_url: https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/
 ---
-America at night is not dark. It is a switchboard with the lights left on.
+America at night is not dark, but rather a switchboard with the lights left on.
 
 In the predawn hours of 18 October 2026, with clear skies over the eastern United States, astronauts on the International Space Station had a sweeping view of nighttime lights across the US Midwest. Chicago and Detroit stand out as the brightest features, a web of light spreading between them; above it hangs a diffuse layer of green and orange airglow, and to the right the Sun arcs across the horizon. Sunrise was still about an hour away!
 
@@ -14,4 +14,4 @@ The pretty picture is also a census. Astronaut photographs and other remote sens
 
 Satellites do the same job from farther away: NASA's Black Marble nighttime lights product suite produces science-quality records of the night, following major storms, lighting changes linked to new infrastructure, and transitions to LED lighting from older forms. Leave the lights on long enough and the planet starts to glow like a fridge left open (sorry, moths). The story is by Lindsey Doermann (NASA Earth Observatory).
 
-Conclusion: the Midwest at night is not asleep. It is on standby.
+Conclusion: the Midwest at night is not asleep, but rather on standby.
