@@ -13,4 +13,4 @@ Since the 1980s, landing a permanent research post in France has demanded a good
 
 The system calls this an initiatory rite of passage. One researcher (Élodie) calls it Sisyphus: work that will never be recognised, because she had a child at the end of her PhD.
 
-Conclusion: the equation is not impossible. It is rigged.
+Conclusion: the equation is not impossible, but rather rigged.
