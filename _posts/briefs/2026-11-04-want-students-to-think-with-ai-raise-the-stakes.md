@@ -12,4 +12,4 @@ That is the lesson of 'One Click Away', a National Bureau of Economic Research p
 
 The author's fix is to make the conversation itself the assessment: in a small study with Aimée Skidmore (21 students, Collège du Léman, Switzerland), students were graded on how precisely they questioned the AI and whether they kept ownership of the thinking — 18 of 21 said their approach changed. In role-plays run through his AI Friction Labs, five students who retook a calculus exercise scored about 34 points higher the second time.
 
-Conclusion: AI is not a tutor. It is an exam with a chat window.
+Conclusion: AI is not a tutor, but rather an exam with a chat window.
