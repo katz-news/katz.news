@@ -12,4 +12,4 @@ Pinal, an AI system from Westlake University in China published in Nature, turns
 
 Meanwhile Carbon-X, an open model from Hugging Face and collaborators, chats with DNA and runs on a MacBook.
 
-Conclusion: biology is not a members-only club any more. It is a group chat.
+Conclusion: biology is not a members-only club any more, but rather a group chat.
