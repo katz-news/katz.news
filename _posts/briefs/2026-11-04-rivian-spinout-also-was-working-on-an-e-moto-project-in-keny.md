@@ -13,4 +13,4 @@ The Rivian spinout quietly started — then walked away from — a Shell Foundat
 
 It was also a rocky first year: supply-chain Whac-A-Mole delayed the TM-B e-bike, which finally shipped in early October, and Yu admits the company did 'a pretty poor job communicating' with reservation holders.
 
-Conclusion: Also is not leaving Africa. It is leaving the queue — and joining a different one.
+Conclusion: Also is not leaving Africa, but rather leaving the queue — and joining a different one.
