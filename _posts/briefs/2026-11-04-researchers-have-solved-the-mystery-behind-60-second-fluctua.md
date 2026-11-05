@@ -9,8 +9,4 @@ section: science
 source_name: r/science
 source_url: https://www.reddit.com/r/science/comments/1xn93n8/researchers_have_solved_the_mystery_behind/
 ---
-The world's power grids have a heartbeat nobody ordered. Every 60 seconds, something wobbles — and researchers have finally found out why.
-
-Grids are supposed to be boring: steady voltage, steady frequency, lights on, kettles boiled. Instead, operators around the world have watched the same minute-long flutter ripple through their networks, a mystery with no obvious culprit and no off switch. The answer, it turns out, is unintended synchronisation: separate parts of the system falling into step with each other, like an audience that starts clapping in time without meaning to.
-
-Conclusion: the grid is not haunted. It is just keeping time with itself.
+Your power grid flinches every minute, on the dot. Batteries did it. Firstly, the mystery. For years, TenneT Germany watched Europe's grid frequency dip briefly every 60 seconds. Not dangerous, just measurable — and far too regular to be chance. A continent-sized machine, hiccuping like clockwork (sorry, turbines). Secondly, the culprit. Dirk Witthaut's team at Jülich traced it to large battery systems checking their state of charge — all of them, at the start of every minute. One battery is nothing. Thousands, synchronised by the clock, are an 80-megawatt shrug. They proved it at 80 measuring points, then found the same one-minute signal in twelve grids on five continents. Thirdly, the damage. Hydro turbines slow, then speed up, sixty times an hour. In Ireland, where data centres eat a fifth of the electricity, the signal quadrupled between 2016 and 2021. And batteries may only be the start: air conditioners, heat pumps and washing machines all keep time too. Conclusion: the fix is gloriously boring. Randomise the checks. The grid does not need a new power station — it needs batteries that cannot tell the time together.
