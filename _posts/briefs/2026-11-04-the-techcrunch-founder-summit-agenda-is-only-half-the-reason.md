@@ -13,4 +13,4 @@ TechCrunch Founder Summit 2026 took over SoWa Power Station in Boston on 4 Novem
 
 Between sessions, Braindate networking matched founders one-to-one, and the day closed with a reception.
 
-Conclusion: a founder summit is not a conference. It is a hallway with a stage attached.
+Conclusion: a founder summit is not a conference, but rather a hallway with a stage attached.
