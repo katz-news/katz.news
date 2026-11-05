@@ -24,14 +24,14 @@ a:hover { color: var(--ink); }
 /* Masthead */
 .masthead { padding-top: 16px; }
 .rail { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font: 400 12px/1.4 var(--mono); letter-spacing: .12em; color: var(--graphite); text-transform: uppercase; }
-.ticks { height: 6px; margin: 6px 0 10px; border-top: 1px solid var(--ink); background: repeating-linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 16px); }
+.ticks { height: 6px; margin: 6px 0 4px; border-top: 1px solid var(--ink); background: repeating-linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 16px); }
 .mast-grid { display: grid; grid-template-columns: 200px minmax(0, 1fr) 200px; gap: 24px; align-items: center; }
 .ear { border: 1px solid var(--ink); padding: 8px 12px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; line-height: 1.35; color: var(--graphite); }
 .ear.right { text-align: right; }
 .ear-label { font: 500 11px var(--mono); letter-spacing: .14em; color: var(--prussian); }
 .lockup { display: flex; flex-direction: column; align-items: center; gap: 10px; text-decoration: none; }
 .lockup img { width: 100%; max-width: 560px; height: auto; }
-.double-rule { border-top: 3px solid var(--ink); border-bottom: 1px solid var(--ink); height: 6px; margin: 12px 0 6px; }
+.double-rule { border-top: 3px solid var(--ink); border-bottom: 1px solid var(--ink); height: 6px; margin: 4px 0 6px; }
 .rail.bottom { align-items: center; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
 .sections { display: flex; gap: 6px 18px; flex-wrap: wrap; justify-content: center; }
 .sections a { color: var(--prussian); text-decoration: none; padding: 6px 0; }
