@@ -13,4 +13,4 @@ Wildlife trade researcher Vincent Nijman first noticed something odd in a Bali w
 
 The 1972 Marine Mammal Protection Act reserves walrus hunting and crafting to Alaska Natives; the fraud outsources their livelihoods to Bali and leaves buyers holding fakes.
 
-Conclusion: the ivory is not Native. It is a souvenir with a stolen signature.
+Conclusion: the ivory is not Native, but rather a souvenir with a stolen signature.
