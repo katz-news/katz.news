@@ -13,4 +13,4 @@ Drexel University, which acquired the Academy of Natural Sciences in 2011, annou
 
 For the author (Lili Mei Granda Argianas, a physics PhD student), the Academy was where a first-generation college student first saw herself as a scientist — the same way a childhood visit to the blue whale hall had done years before.
 
-Conclusion: a museum is not a building full of old bones. It is a doorway, and this one just shut.
+Conclusion: a museum is not a building full of old bones, but rather a doorway, and this one just shut.
