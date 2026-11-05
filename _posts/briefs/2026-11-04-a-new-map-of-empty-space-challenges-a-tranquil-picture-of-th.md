@@ -1,7 +1,7 @@
 ---
 published: true
 title: A New Map of ‘Empty’ Space Challenges a Tranquil Picture of the Galaxy
-date: 2026-11-05
+date: 2026-11-03
 section: science
 source_name: Quanta Magazine
 source_url: https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/
