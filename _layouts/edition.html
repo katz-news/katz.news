@@ -5,6 +5,7 @@ layout: default
 <section class="edition">
   <p class="label">Edition {{ ed_label }} · Jahrgang {{ ed_jg }}</p>
   <h1>{{ page.date | date: "%A, %-d %B %Y" }}</h1>
+  {% include share.html %}
   {%- assign start = page.date | date: "%s" | plus: 0 -%}{%- assign stop = start | plus: 604800 -%}
   <div class="grid">
   {%- for p in site.posts -%}{%- assign ts = p.date | date: "%s" | plus: 0 -%}

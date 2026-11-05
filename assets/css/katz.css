@@ -204,3 +204,12 @@ img, iframe { max-width: 100%; }
 .sig-box { background: #fff; border: 1px solid var(--line); padding: 20px; margin: 8px 0 24px; overflow-x: auto; }
 .sig-box table { margin: 0; }
 .prose .sig-box p, .prose .sig-box td { font-family: Arial, Helvetica, sans-serif; }
+
+/* ---------- Share links (plain links, no third-party scripts) ---------- */
+.share { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 28px 0; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.share-label { margin: 0; font: 500 12px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--slate); }
+.share ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.share a { display: inline-block; font: 500 13px var(--mono); color: var(--ink); text-decoration: none; border: 1px solid var(--ink); padding: 8px 12px; min-height: 40px; line-height: 22px; box-sizing: border-box; }
+.share a:hover { background: var(--ink); color: var(--paper); }
+.share a.share-linkedin { background: var(--prussian); border-color: var(--prussian); color: var(--paper); font-weight: 600; }
+.share a.share-linkedin:hover { background: var(--ink); border-color: var(--ink); }

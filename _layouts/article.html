@@ -11,6 +11,7 @@ layout: default
   <p class="meta">{{ page.date | date: "%A, %-d %B %Y" }} · <a href="/editions/{{ ed_label }}/">Edition {{ ed_label }}</a>{% if page.author %} · By {{ page.author }}{% if page.author_role %} · {{ page.author_role }}{% endif %}{% endif %}</p>
   {% if page.image %}<figure><img src="{{ page.image }}" alt="{{ page.image_alt }}">{% if page.image_credit %}<figcaption>{{ page.image_credit }}</figcaption>{% endif %}</figure>{% endif %}
   {{ content }}
+  {% include share.html %}
   {% if page.sources and page.sources.size > 0 %}
   <section class="sources"><h2>Sources</h2><ol>{% for s in page.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.title }}</a>{% else %}{{ s.title }}{% endif %}</li>{% endfor %}</ol></section>
   {% endif %}

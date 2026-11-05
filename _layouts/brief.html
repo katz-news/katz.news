@@ -7,6 +7,7 @@ layout: default
   <p class="meta">{{ page.date | date: "%A, %-d %B %Y" }} · Source: <a href="{{ page.source_url }}">{{ page.source_name }}</a></p>
   {% if page.youtube_id %}<div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}" title="{{ page.title | escape }}" loading="lazy" allowfullscreen></iframe></div>{% endif %}
   {{ content }}
+  {% include share.html %}
   <p><a class="button" href="{{ page.source_url }}">Read the original at {{ page.source_name }}</a></p>
   <p class="disclosure">Summary in our own words. The original belongs to its publisher.</p>
 </article>
