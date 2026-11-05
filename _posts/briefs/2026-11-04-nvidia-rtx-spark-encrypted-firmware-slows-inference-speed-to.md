@@ -12,4 +12,4 @@ That is the headline from a hands-on test of the Nvidia RTX Spark laptop (MindSt
 
 The culprit is the Nvidia Platform Controllers and Framework, a Windows-only component fed an encrypted power table that only the Windows driver can read. The fix is in Nvidia's hands.
 
-Conclusion: the RTX Spark is not a Linux laptop. It is a Windows laptop that tolerates Linux.
+Conclusion: the RTX Spark is not a Linux laptop, but rather a Windows laptop that tolerates Linux.
