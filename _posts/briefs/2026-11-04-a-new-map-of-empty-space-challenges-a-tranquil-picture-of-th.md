@@ -6,7 +6,7 @@ section: science
 source_name: Quanta Magazine
 source_url: https://www.quantamagazine.org/a-new-map-of-empty-space-challenges-a-tranquil-picture-of-the-galaxy-20261030/
 ---
-Empty space is not empty. It is busy, and lots of textbooks are going to be burned (sorry, trees).
+Empty space is not empty, but rather busy, and lots of textbooks are going to be burned (sorry, trees).
 
 Firstly, the old model. Space between stars was supposed to be tidy: cold gas at 100 kelvins, warm gas at 8,000 kelvins, hot plasma at half a million — nothing in between. Officially, the middle did not exist; unofficially, it was 41% of the neighbourhood.
 
@@ -18,4 +18,4 @@ Why does it matter? Galaxies are terrible at making stars. This churn may be why
 
 Caveat: the paper is under peer review, and smoothing could inflate the number. The authors tested another map. The figure moved by only 5%.
 
-Conclusion: space is not mostly empty. It is full of stuff and it is moving around, fast and furious.
+Conclusion: space is not mostly empty, but rather full of stuff and it is moving around, fast and furious.
