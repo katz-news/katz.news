@@ -16,4 +16,4 @@ In AI, the premise is that we may never understand enough about the inner workin
 
 Qu sees mechanism design as just one layer in a “defense in depth” strategy — alongside interpretability, regulation and training, not instead of them. Models could find loopholes no one anticipated, and Anthropic and OpenAI did not respond to requests for comment on whether they are working on this. It is a dog-training manual, except the dog is a maths equation that talks (sorry, Pavlov).
 
-Conclusion: alignment is not a mind-reading trick. It is a cake-cutting rule.
+Conclusion: alignment is not a mind-reading trick, but rather a cake-cutting rule.
