@@ -53,8 +53,8 @@ h1, h2, h3 { font-family: var(--ui); font-weight: 600; line-height: 1.2; }
 .card .standfirst { font-size: 1rem; }
 .card.lead h3 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); }
 .card img { width: 100%; height: auto; border: 1px solid var(--line); }
-.front-top { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 36px; padding-bottom: 28px; border-bottom: 1px solid var(--ink); }
-.today { border-top: 3px solid var(--ink); padding-top: 10px; order: -1; }   /* desktop: Briefs first, in the wider left column */
+.front-top { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 36px; padding-bottom: 28px; }
+.today { padding-top: 10px; order: -1; }   /* desktop: Briefs first, in the wider left column */
 .today h2 a { color: var(--ink); text-decoration: none; }
 .row { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .row > h2 a { color: var(--ink); text-decoration: none; }
@@ -82,7 +82,7 @@ input[type=search] { width: 100%; font: inherit; padding: 12px; border: 1px soli
 .pager { margin-top: 24px; display: flex; gap: 16px; }
 
 /* Footer */
-.site-footer { border-top: 3px solid var(--ink); padding: 28px 0 48px; }
+.site-footer { padding: 28px 0 48px; }
 .cta { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; background: var(--prussian); color: var(--paper); padding: 24px 28px; }
 .cta h2 { margin: 0 0 6px; } .cta p { margin: 0; color: #D7E2EA; max-width: 60ch; }
 .cta .button { background: var(--paper); color: var(--ink); }
