@@ -14,4 +14,4 @@ On a treadmill, at several speeds, runners wore the plated socks, the same socks
 
 It is Cinderella, except the glass slipper is carbon fibre and the prince is a personal best — and if the socks work, every drawer in the country will soon contain technology that needs washing (sorry, laundry).
 
-Conclusion: your socks are not clothing. They are equipment.
+Conclusion: your socks are not clothing, but rather equipment.
