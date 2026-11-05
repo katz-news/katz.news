@@ -6,7 +6,7 @@ section: science
 source_name: Science (AAAS)
 source_url: https://www.science.org/content/article/early-career-scientists-cost-ai-can-be-problem
 ---
-AI is not free. It is a subscription, and the poorest scientists are paying it.
+AI is not free, but rather a subscription, and the poorest scientists are paying it.
 
 Saad Bhamla, who leads a biophysics and engineering lab at the University of Colorado Boulder, polled nearly two dozen members of his lab earlier this year: which AI tools were they using, and how much were they paying? He was startled to find everybody was paying, from $20 a month upwards.
 
@@ -16,4 +16,4 @@ PhD students are shouldering the cost: Haris Riaz, a PhD student, was â€œluckyâ€
 
 Where funding is scarcer the divide is starker: Giovani de Almeida Valdrighi, a PhD student in Brazil on 3,100 reais a month ($615), would spend about 3.5 per cent of his income on the same plan, and many of his friends go without. At this rate the lab's biggest experiment will be seeing how long a PhD student can live on instant noodles (sorry, noodles).
 
-Conclusion: AI is not a leveller. It is a bill.
+Conclusion: AI is not a leveller, but rather a bill.
