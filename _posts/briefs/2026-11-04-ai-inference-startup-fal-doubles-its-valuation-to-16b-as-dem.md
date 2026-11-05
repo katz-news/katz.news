@@ -6,7 +6,7 @@ section: entrepreneurship
 source_name: TechCrunch Startups
 source_url: https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/
 ---
-Fal is not a software company. It is a landlord for other people's AI models.
+Fal is not a software company, but rather a landlord for other people's AI models.
 
 The San Francisco firm hosts and runs video, image and audio models — inference, the part after training, when a model actually has to do some work. It has just raised $1.3 billion in a Series F led by Bessemer Venture Partners, with Nvidia, Sound Ventures and T. Rowe Price joining in; the $16 billion valuation doubles the $8 billion of April, and Series E and F together total $1.65 billion (Sequoia led the earlier round).
 
@@ -16,4 +16,4 @@ The catch is the rent. Gross margins stay thin because compute is ruinously expe
 
 Can you smell what the inference economy is cooking? Mostly hot servers and somebody else's electricity bill! Fal was co-founded in 2021 by Burkay Gur (a former Coinbase machine learning leader and Oracle engineer) and Gorkem Yurtseven (previously a developer at Amazon).
 
-Conclusion: Fal is not selling intelligence. It is selling the kitchen.
+Conclusion: Fal is not selling intelligence, but rather selling the kitchen.
