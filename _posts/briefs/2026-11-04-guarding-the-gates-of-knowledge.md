@@ -14,4 +14,4 @@ IEEE's human-review processes and research-integrity checkers were the gatekeepe
 
 “Wikipedia is known as a repository of human-generated information, and they want to hold on to that,” says Strickland. “Who knows how long they'll be able to do that.” If the scientific record cannot be assumed trustworthy, the uncertainty delights quantum scientists and grifters who thrive where nothing is certain (sorry, facts). It is Jurassic Park, except the dinosaurs are footnotes and the park rangers are peer reviewers.
 
-Conclusion: knowledge is not a library. It is a nightclub with a bouncer.
+Conclusion: knowledge is not a library, but rather a nightclub with a bouncer.
