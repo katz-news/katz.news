@@ -12,4 +12,4 @@ Lying on a vibrating mattress for 40 minutes, combined with two pills that relea
 
 It is one of several angles researchers are trying — ultrasound, pink noise and even intermittently inhaling high doses of carbon dioxide are in the mix — because, as Christopher Brown (University of Southampton) puts it, it is important to come at this from as many angles as possible to increase the chance of it translating to the clinic.
 
-Conclusion: the brain is not an attic. It is a house that needs its bins taken out.
+Conclusion: the brain is not an attic, but rather a house that needs its bins taken out.
