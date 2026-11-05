@@ -13,4 +13,4 @@ In a September survey of 1,528 parents (National Parents Union), 77% said they w
 
 The teachers, meanwhile, are improvising: fewer than a quarter say they have had adequate training to help students use AI, and 43% have had none at all.
 
-Conclusion: parents are not anti-AI. They are pro-homework — for the adults.
+Conclusion: parents are not anti-AI, but rather pro-homework — for the adults.
