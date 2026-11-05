@@ -213,3 +213,13 @@ img, iframe { max-width: 100%; }
 .share a:hover { background: var(--ink); color: var(--paper); }
 .share a.share-linkedin { background: var(--prussian); border-color: var(--prussian); color: var(--paper); font-weight: 600; }
 .share a.share-linkedin:hover { background: var(--ink); border-color: var(--ink); }
+
+/* ---------- Home: lead column with features from earlier editions ---------- */
+.lead-col { min-width: 0; }
+.earlier { margin-top: 26px; border-top: 1px solid var(--line); padding-top: 12px; }
+.earlier h2 { font: 600 13px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--prussian); margin: 0 0 4px; }
+@media (max-width: 820px) {
+  .lead-col { display: contents; }   /* mobile: lead, then Briefs, then earlier features */
+  .earlier { order: 1; margin-top: 8px; }
+  .today { order: 0; }
+}

@@ -6,7 +6,26 @@ title: KATZ — Königsberger Allgemeine Technologie Zeitung
 {%- assign lead = articles | where: "lead", true | first | default: articles.first -%}
 <section class="front">
   <div class="front-top">
-    {% if lead %}{% include card.html post=lead lead=true %}{% else %}<p class="empty">The first edition is on its way.</p>{% endif %}
+    <div class="lead-col">
+      {% if lead %}{% include card.html post=lead lead=true %}{% else %}<p class="empty">The first edition is on its way.</p>{% endif %}
+      <section class="earlier">
+        <h2>From earlier editions</h2>
+        <ul class="briefs compact">
+        {%- assign shown = 0 -%}
+        {%- for p in articles limit:6 -%}
+          {%- if p.url != lead.url and shown < 4 -%}
+            {%- assign shown = shown | plus: 1 -%}
+            {%- assign esec = site.data.sections | where: "slug", p.categories[0] | first -%}
+            <li class="brief-item">
+              <p class="label">{% if esec %}{{ esec.name }} · {% endif %}{{ p.date | date: "%-d %b %Y" }}</p>
+              <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+              {% if p.standfirst %}<div class="summary">{{ p.standfirst }}</div>{% endif %}
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+        </ul>
+      </section>
+    </div>
     <aside class="today">
       <h2><a href="/briefs/">Briefs</a></h2>
       <ul class="briefs compact">{% for b in site.categories.briefs limit:8 %}{% include brief-item.html post=b %}{% endfor %}</ul>
