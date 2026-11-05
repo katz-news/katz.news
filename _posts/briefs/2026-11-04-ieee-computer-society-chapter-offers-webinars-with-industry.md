@@ -16,4 +16,4 @@ Rather than presenting emerging tech only at a conceptual level, speakers discus
 
 The most recent webinar, “Feeding and Fencing AI Agents: Engineering Governed Agentic Systems on Real…”, featured Gajendra Babu Thokala (a senior engineering leader at Apple in Seattle); another, “Building AI Native Products: A Playbook for Agentic Systems”, was led by Sandeep Shivam (a product and technology leader at Tavant in Dallas). Future sessions are planned on enterprise AI, software reliability and responsible AI usage. It is TED Talks, except the audience can interrupt and the speakers actually build things (sorry, lecturers).
 
-Conclusion: expertise is not a lecture. It is a webinar with a question button.
+Conclusion: expertise is not a lecture, but rather a webinar with a question button.
