@@ -1,5 +1,6 @@
 {%- comment -%} Sets `ed_nr` and `ed_jg` for the date passed as include.date (default: build time). {%- endcomment -%}
-{%- assign _t0 = site.founding_date | append: " 00:00:00" | date: "%s" | plus: 0 -%}
+{%- comment -%} Anchor in UTC. Without +0000, the build (timezone: Europe/Tallinn) shifts the anchor by an hour each DST change, so editions after 25 Oct display as Monday. {%- endcomment -%}
+{%- assign _t0 = site.founding_date | append: " 00:00:00 +0000" | date: "%s" | plus: 0 -%}
 {%- if include.date -%}{%- assign _t = include.date | date: "%s" | plus: 0 -%}{%- else -%}{%- assign _t = site.time | date: "%s" | plus: 0 -%}{%- endif -%}
 {%- assign ed_nr = _t | minus: _t0 | divided_by: 604800 | plus: 1 -%}
 {%- assign ed_ts = ed_nr | minus: 1 | times: 604800 | plus: _t0 -%}
