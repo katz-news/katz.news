@@ -15,7 +15,7 @@ logo: /assets/brand/katz-monogram.svg
 social:
   name: KATZ
   links:
-    - https://www.linkedin.com/company/kbi-eu/
+    - https://www.linkedin.com/company/katz-news/
 
 # Forms: native HTML forms. Submissions go to KBI's own form handler (Google Apps Script in KBI's
 # Workspace, see scripts/form-handler.gs), which emails each form to its own mailbox.

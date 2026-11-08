@@ -9,6 +9,10 @@ Our readers are the foundations of the Digital Mittelstand: a digital-native, ph
 
 KATZ dates its founding to 26 August 2025 — 290 years after Leonhard Euler presented the Königsberger Bridges Problem to the St Petersburg Academy, the puzzle that gave birth to graph theory. It is published every Tuesday by the Königsberger Bridges Institute (KBI), and it is the official newspaper of the Virtual City of Königsberg.
 
+## Our history
+
+KATZ's first editions were published to KBI members in 2025. The public archive on this site was compiled in November 2026 from each week's reporting, and the public launch is 10 November 2026.
+
 ## What we believe
 
 - **Optimistic, never naive.** We report risks honestly, then show who is working on solutions.

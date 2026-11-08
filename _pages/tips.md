@@ -5,7 +5,7 @@ standfirst: Know something important about science, technology, education or ent
 ---
 ## Use Signal
 
-Message KATZ on Signal at **[SIGNAL USERNAME]**. Signal encrypts messages end to end, and we keep disappearing messages turned on. We do not accept tips by email or through our website forms, because they are not secure enough.
+Message KATZ on Signal at **e_2.718281828**. Signal encrypts messages end to end, and we keep disappearing messages turned on. We do not accept tips by email or through our website forms, because they are not secure enough.
 
 ## Protect yourself first
 
